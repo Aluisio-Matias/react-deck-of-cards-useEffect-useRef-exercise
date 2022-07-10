@@ -1,0 +1,31 @@
+.Deck {
+    text-align: center;
+}
+  
+.Draw-button {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin: 0 10px;
+    box-shadow: 5px 5px 10px #868686;
+}
+  
+.Draw-button:hover {
+    cursor: pointer;
+    background-color: #444;
+}
+  
+.Draw-button:active {
+    box-shadow: 0 2px #868686;
+    transform: translateY(2px);
+}
+
+.Draw-button:focus {
+    outline: none;
+}
+  
+.Deck-cardarea {
+    margin-top: 80px;
+}
